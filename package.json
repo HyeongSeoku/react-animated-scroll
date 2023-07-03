@@ -1,0 +1,40 @@
+{
+    "name": "@marshallku/react-postscribe",
+    "version": "0.1.11",
+    "description": "React component to render HTML with postscribe",
+    "main": "dist/index.esm.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "NODE_ENV=production rollup --config",
+        "prepublish": "pnpm run build",
+        "update-version": "bash scripts/update.sh"
+    },
+    "keywords": [
+        "react",
+        "postscribe"
+    ],
+    "author": {
+        "name": "Marshall K",
+        "email": "marshall@kakao.com",
+        "url": "https://marshallku.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "postscribe": "^2.0.8"
+    },
+    "peerDependencies": {
+        "react": "^17.0.2"
+    },
+    "devDependencies": {
+        "@rollup/plugin-babel": "^6.0.3",
+        "@rollup/plugin-typescript": "^11.1.1",
+        "@types/react": "^18.2.12",
+        "rollup": "^3.25.1",
+        "rollup-plugin-dts": "^5.3.0",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "tslib": "^2.5.3",
+        "typescript": "^5.1.3"
+    }
+}
