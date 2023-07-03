@@ -1,7 +1,7 @@
 {
-    "name": "@marshallku/react-postscribe",
+    "name": "@hyeongseoku/react-animated-scroll",
     "version": "0.1.11",
-    "description": "React component to render HTML with postscribe",
+    "description": "React Hook for animated scroll",
     "main": "dist/index.esm.js",
     "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
@@ -13,17 +13,14 @@
     },
     "keywords": [
         "react",
-        "postscribe"
+        "animate",
+        "scroll"
     ],
     "author": {
-        "name": "Marshall K",
-        "email": "marshall@kakao.com",
-        "url": "https://marshallku.com"
+        "name": "hyeongseok Kim",
+        "email": "gudtjr3437@naver.com"
     },
     "license": "MIT",
-    "dependencies": {
-        "postscribe": "^2.0.8"
-    },
     "peerDependencies": {
         "react": "^17.0.2"
     },
